@@ -1,0 +1,24 @@
+/* Pixel Pioneer overrides on the Structa template: gold accent, brand logo, sample story tiles */
+:root{--accent:#D4A017;--accent-l:#F2CB5C}
+.button{color:#0A0907;background-image:linear-gradient(120deg,#C98F00,#F2CB5C 55%,#D4A017)}
+.button.is-secondary{background-image:none}
+.nav-brand{display:flex;align-items:center;gap:10px}
+.pp-logo{height:38px!important;width:38px!important;border-radius:50%;object-fit:cover}
+.pp-word{display:inline-flex;flex-direction:column;line-height:1.1;color:#fff}
+.pp-word b{font-weight:600;letter-spacing:.2em;font-size:14px}
+.pp-word small{font-family:"Space Mono",monospace;font-size:9px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-l);margin-top:4px}
+.pp-avatar{background:linear-gradient(135deg,#B8860B,#F2CB5C 60%,#D4A017);display:grid!important;place-items:center;border-radius:16px}
+.pp-avatar span{font-size:52px;font-weight:600;color:#0A0907}
+.pp-role{display:block;font-size:12px;opacity:.6;font-weight:400}
+.pp-sample{display:block;font-style:normal;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#A87B0A;margin-top:2px}
+.pp-skill{font-size:18px;font-weight:500;text-align:center;letter-spacing:-.01em}
+.pp-about-img{width:100%;height:100%;min-height:380px;object-fit:cover;border-radius:16px}
+.pp-mark-img{object-fit:cover}
+.pp-foot{color:#bdbdbd;max-width:260px;margin-bottom:10px}
+.pp-foot-brand{display:flex;align-items:center;gap:14px;font-size:clamp(28px,5vw,64px);font-weight:300;letter-spacing:.2em;color:#fff}
+.pp-foot-brand .pp-logo{height:clamp(44px,6vw,80px)!important;width:clamp(44px,6vw,80px)!important}
+.w-form-done a{color:inherit;text-decoration:underline}
+.w-webflow-badge{display:none!important}
+.home1_hero_video video,.home1_banner_video video,.home1_process_video video{filter:hue-rotate(38deg) saturate(.95)}
+.nav-link{white-space:nowrap}
+html,body{overflow-x:hidden}
